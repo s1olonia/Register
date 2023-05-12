@@ -1,0 +1,172 @@
+body {
+  background-color: #b4d6b4;
+  margin: 0px;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  background-color: #457846;
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 150px;
+  margin-left: 120px;
+  position: relative;
+  top: 30px;
+}
+
+.nameOmline {
+  color: white;
+  margin-left: 20px;
+}
+
+.nameOmline>h1 {
+  margin-bottom: 0px;
+}
+
+.nameOmline>p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.wrapperMain {
+  background-color: #182718;
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.wrapperMain>ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 50px 20px 50px;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+
+  user-select: none;
+}
+
+.wrapperMain>ul>li {
+  list-style: none;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mainItem {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.mainItemOne {
+  background-color: #457846;
+  width: 409.39px;
+  height: 296.95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  border-radius: 40px;
+  margin: 30px 0px 0px 97px;
+  cursor: pointer;
+}
+
+.mainItemTwo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 23px;
+  margin-top: 15px;
+}
+
+.numOne>ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  width: 522px;
+  height: 191px;
+}
+
+.numOne>ul>li {
+  background-color: #457846;
+  width: 250px;
+  height: 161.36px;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 23px;
+  margin-right: 27px;
+  cursor: pointer;
+}
+
+.numOne {
+  margin-left: 23px;
+}
+
+.numTwo>ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  justify-content: space-between;
+  width: 400px;
+  height: 83px;
+  list-style: none;
+  margin-left: 23px;
+}
+
+.numTwo>ul>li {
+  background-color: #457846;
+  width: 120px;
+  height: 83.65px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #457846;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer>button {
+  background-color: #182718;
+  color: white;
+  width: 300px;
+  height: 80px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+footer>button:active {
+  transform: scale(0.98);
+}
+
+.footer {
+  display: flex;
+  gap: 20px;
+}

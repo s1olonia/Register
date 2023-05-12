@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <form class="wrapper">
+    <img src="./img/Component 1.png" alt="Comonentn_one" />
+    <h1>Register</h1>
+    <div class="formGroup">
+      <label for="firstName">First name :</label>
+      <input type="text" name="firstName" id="firstName" />
+    </div>
+    <div class="formGroup">
+      <label for="lastName">Last name :</label>
+      <input type="text" name="lastName" id="lastName" />
+    </div>
+    <div class="formGroup">
+      <label for="date">Date of birth :</label>
+      <input type="date" name="date" id="date" />
+    </div>
+    <div class="formGroup">
+      <label for="email">Email :</label>
+      <input type="email" name="email" id="email" />
+    </div>
+    <div class="formGroup">
+      <label for="password">Password :</label>
+      <input type="password" name="password" id="password" />
+    </div>
+    <div class="formGroup">
+      <label for="confirmPassword">Password confirm :</label>
+      <input type="password" name="confirmPassword" id="confirmPassword" />
+    </div>
+    <button type="submit" id="submit_btn">Register</button>
+  </form>
+
+  <form class="formSingIn">
+    <h1>Welcome</h1>
+    <div class="formGroup">
+      <label for="email">Email :</label>
+      <input type="email" name="email" id="emailSingIn" />
+    </div>
+    <div class="formGroup">
+      <label for="password">Password :</label>
+      <input type="password" name="password" id="passwordSingIn" />
+    </div>
+    <button type="button" id="singInBtn">Sing In</button>
+    <button type="button" id="registerBtn">Register</button>
+  </form>
+
+  <script type="module" src="./script.js"></script>
+</body>
+
+</html>
